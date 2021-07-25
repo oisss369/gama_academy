@@ -30,7 +30,7 @@ header {
     border-bottom: 5px solid whitesmoke;
     padding: 0;
     margin: 0;
-    height: 7vh;
+    height: 11vh;
   }
   
 header .container {
@@ -43,8 +43,12 @@ header .container {
 }
 
 header img {
-    width: 230px;
+    width: 45px;
     margin-left: 10px;
+}
+header a{
+    color: white;
+    text-decoration: none;
 }
 
 header nav ul {
@@ -181,13 +185,13 @@ main .form-cadastro {
 }
 
 main .form-cadastro input{
-    background-color: #000;
+    background-color: rgb(255, 255, 255);
     height: 35px;
     width: 350px;    
     padding-bottom: 1.5rem;
     border-radius: 50px;
     text-align: center;
-    color: #fff;
+    color: rgb(55, 55, 55);
     font-size: 1.5rem;
     padding-top: 10px;
     margin-top: 10px;
@@ -244,12 +248,13 @@ footer{
 footer p{
     padding-top: 0.4%;
     font-size: 1.5rem; 
+    color: white;
 }
 
 footer a{
     font-size: 1.5rem; 
     text-decoration: none;
-    color: #3A3A3A;
+    color: white;
     display: inline-block;
     font-weight: bold;
 }
