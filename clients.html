@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head onload="validalogin();">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <title>Hookah brothers - cadastro produtos</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" media="screen and (max-width: 768px)" />
+    <script src="https://kit.fontawesome.com/ab74162177.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="gerarTabela();">
+    <header>
+        <div class="container">
+            <a href="/index.html">
+                <img src="./images/logo.svg" alt="Hookah brothers" />
+                <h1>Hookah brothers</h1>            </a>
+            <div class="menu-section">
+                <div class="menu-toggle">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#">Clientes</a></li>
+                        <li><a href="products.html">Produtos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="form-cadastro">
+            <form id="form-clientes">
+                <h2>Cadastrar cliente</h2>
+                <input type="text" placeholder="Nome" id="nome">
+                <input type="address" placeholder="Endereço" id="endereco">
+                <input type="email" placeholder="Email" id="email">
+                <input type="phone" placeholder="Telefone" id="telefone">
+                <button onclick="cadastrarCliente(); gerarTabela();" id="botao">cadastrar</button>
+            </form>
+        </div>
+        <div class="list-cadastro">
+            <h2>Clientes Cadastrados</h2>
+            <table style="width:100%">
+            </table>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Desenvolvido por <a href="https://www.linkedin.com/in/leonardo-santana-0aa9b218b/">Leonardo Santana </a></p>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+<script src="js/dashboard.js"></script>
+<script src="js/clients.js"></script>
+
+</html>

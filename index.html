@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <title>Hookah brothers - cadastro produtos</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" media="screen and (max-width: 768px)" />
+    <script src="https://kit.fontawesome.com/ab74162177.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="totalProdutos(); totalClientes();">
+    <header>
+        <div class="container">
+            <a href="/">
+                <img src="./images/logo.svg" alt="Hookah brothers" />
+                <h1>Hookah brothers</h1>
+            </a>
+            <div class="menu-section">
+                <div class="menu-toggle">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="clientes.html">clientes</a></li>
+                        <li><a href="produtos.html">produtos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="dashboard">
+            <h1>Dashboard</h1>
+            <h2>Total Clientes: <span id="total-clientes"></span></h2>
+            <h2>Total Produtos: <span id="total-produtos"></span></h2>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Desenvolvido por <a href="https://www.linkedin.com/in/leonardo-santana-0aa9b218b/">Leonardo Santana </a></p>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+<script src="./js/dashboard.js"></script>
+
+</html>
